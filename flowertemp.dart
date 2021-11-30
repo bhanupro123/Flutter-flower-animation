@@ -169,11 +169,5 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
 
   }
 
-
-  double degreeToRadian(double degree) {
-    return degree * (pi / 180);
-  }
-
-
 }
 
