@@ -85,11 +85,8 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
               child: Transform.rotate(alignment: Alignment.center, angle:i*150, origin: Offset(-60,0), transformHitTests:true, child:
               Container(width:listAnimation[i].value,height: listAnimation[i].value,decoration: BoxDecoration(color:b? Colors.red:Color(0x483BC1BD),
                   shape: BoxShape.circle),child: InkWell(onTap: (){print("clicked= $i");
-              setState(() {
-                b=true;
-
-              });},
-                child: Text(""),),)),
+             },
+               ),)),
             );
 
         },
